@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,800&family=Nunito:wght@800&family=Roboto:wght@300&display=swap');
+body{
+font-family: 'Roboto', sans-serif;
+}
 .logo {
     height: 1rem;
 }
@@ -6,6 +9,7 @@
 .navbar-custom {
     font-size: 1.2rem;
 }
+.titulos{margin-top:20px;text-transform:uppercase;}
 
 .nav-item-custom {
     margin: auto 0.2rem;
@@ -17,18 +21,9 @@
     height: 100vh;
 }
 
-
-
-.registration-form, .buy-tickets-info  {
-    max-width: 65vw !important;
+.footer-custom {
+    background: linear-gradient(rgb(34, 47, 107), rgb(18, 25, 56) );
 }
-
-@media (max-width: 768px) {
-    #details {
-        width: 94%;
-    }
-}
-
 .registration-form, .buy-tickets-info  {
     max-width: 65vw !important;
 }
